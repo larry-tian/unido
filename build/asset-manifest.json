@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73278090.chunk.css",
+    "main.js": "/static/js/main.63b38674.chunk.js",
+    "main.js.map": "/static/js/main.63b38674.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dff82fab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dff82fab.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.15e81e63.chunk.js": "/static/js/2.15e81e63.chunk.js",
+    "static/js/2.15e81e63.chunk.js.map": "/static/js/2.15e81e63.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d696c3edfa803bd755940120d68be5fa.js": "/precache-manifest.d696c3edfa803bd755940120d68be5fa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.73278090.chunk.css.map": "/static/css/main.73278090.chunk.css.map",
+    "static/js/2.15e81e63.chunk.js.LICENSE.txt": "/static/js/2.15e81e63.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/forest.5cd05e97.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dff82fab.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.15e81e63.chunk.js",
+    "static/css/main.73278090.chunk.css",
+    "static/js/main.63b38674.chunk.js"
+  ]
+}

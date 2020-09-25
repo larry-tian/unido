@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "type": "Flower",
+        "img": "./img/basicFlower.png",
+        "name": "Basic Flower",
+        "description": "Let's hope those villagers will like this basic flower."
+    },
+
+    {
+        "id": "2",
+        "type": "Flower",
+        "img": "./img/yellowFlower.png",
+        "name": "Yellow Flower",
+        "description": "This flower should look good in our forest!"
+    },
+
+    {
+        "id": "3",
+        "type": "Flower",
+        "img": "./img/RainbowRose.png",
+        "name": "Rainbow Rose",
+        "description": "This beautiful Rainbow rose may attract more animals to visit our forest! You could always feel a sense of pride in it"
+    },
+
+    {
+        "id": "4",
+        "type": "Tree",
+        "img": "./img/ordinaryTree.png",
+        "name": "Ordinary Tree",
+        "description": "Let's hope those animals will like this ordinary tree."
+    },
+
+    {
+        "id": "5",
+        "type": "Tree",
+        "img": "./img/appleTree.png",
+        "name": "Apple Tree",
+        "description": "These apples will definately attract more animals!"
+    },
+
+    {
+        "id": "6",
+        "type": "Tree",
+        "img": "./img/cherryBlossom.png",
+        "name": "Cherry Blossom",
+        "description": "Maybe a husky will be attracted by this amazing cherry blossom!"
+    }
+    
+] 

@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700");
+
+/*=========================================================*/
+/*======================= Main Page =======================*/
+/*=========================================================*/
+* {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+section {
+    margin: .5rem 0;
+    padding: .5rem;
+    border: 1px solid #95E86F;
+    border-radius: 20px;
+    background-color: #95E86F;
+}
+
+header {
+    margin-bottom: 6rem;
+}
+
+h1 {
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    font-size: 30px;
+    color: #565d47;
+    font-weight: 800;
+}
+
+body {
+    background-color: #228B22;
+    color: black;
+}
+
+p {
+    margin: 0 0 0 0.5rem;
+}
+
+hr {
+    margin-top: .5rem;
+    margin-bottom: .75rem;
+    border: 0;
+    width: 70%;
+    border-top: 2px solid #228B22;
+}
+
+.centered {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+input {
+    border-radius: 10px;
+}
+
+#done{
+    display: none;
+    background-color: pink;
+}
+
+.about-rule h2 {
+    color: #E8C26F;
+    margin: 1rem;
+}
+
+
+#done h2 {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+/*======================= Navbar =======================*/
+
+nav {
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #B5986C;
+    padding: .4rem;
+    border-radius: 0;
+    z-index: 5;
+}
+
+.nav-dim {
+    width: 175px; 
+    height: 47px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+    background-color: #B5986C;
+}
+
+nav ul {
+    margin: 0;
+    padding: .5rem;
+    background-color: #B5986C;
+    border-radius: 0 0 125px 0;
+}
+
+a:focus, a:active, nav a:hover {
+    color: #95E86F;
+    text-decoration: none;
+   }
+
+nav ul li .links {
+    padding-top: 25rem;
+}
+
+nav ul div {
+    background-color: #B5986C;
+}
+
+main {
+    margin-top: 125px;
+}
+
+/*======================= Music Card =======================*/
+
+.music-card {
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 1;
+    margin: .25rem 0;
+    padding: .25rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.music-card img{
+    width: 100%;
+    border-radius: 10px;
+    border-top: .5rem;
+}
+
+/*======================= Forest Info =======================*/
+.forest-page {
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 1;
+    margin: .25rem 0;
+    padding: .25rem;
+    border: 1px solid #95E86F;
+    border-radius: 15px;
+    /* background-color: #95E86F; */
+    background: url("./img/forest.jpg");
+    background-size: cover;
+    
+}
+
+.forest-page img {
+    width: 100%;
+    border-radius: 10px;
+    z-index: 0;
+    display:flex; 
+}
+
+.time {
+    font-size: 3rem;
+}
+
+#clock {
+    color: white;
+}
+
+#timer {
+    font-size:3rem;
+    color: #565d47;
+}
+
+.streaks {
+    color: #6DA3FA;
+}
+
+.exp {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#trees {
+    width: 30%;
+    z-index: 4;
+    display: flex;
+    background-color: none;
+}
+
+#flowers {
+    width:5%;
+    z-index: 4;
+    display: flex;
+}
+
+
+/*======================= MenuItems =======================*/
+
+div .menu-item {
+    width: 100%;
+}
+
+.menu-functionality p {
+    font-size: 1.5rem;
+}
+
+/*======================= Buttons =======================*/
+
+#main-btn {
+    background-color: #B5986C;
+    border-radius: 35px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+
+#main-btn:hover {
+    color: white;
+    background-color: #95E86F;
+}
+
+  .break-btn:hover {
+      color: white;
+      background-color: #6DA3FA;
+  }
+
+  .forest-btn {
+    background-color: #B5986C;
+    border-radius: 50px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    margin: 1rem auto;
+  }
+
+  .forest-btn:hover {
+      color: white;
+      background-color: #6DA3FA;
+  }
+
+  #plantTree {
+      display: none;
+  }
+
+  #plantFlower {
+      display: none;
+  }
+
+  #pauseTimer {
+      display: none;
+  }
+
+  #stopTimer {
+      display: none;
+  }
+
+/*===========================================================*/
+/*======================= Preferences =======================*/
+/*===========================================================*/
+
+/*======================= Details =======================*/
+#musicTable {
+    display: none;
+}
+
+
+/*======================= Plant Cards =======================*/
+
+.card {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 0 0 350px;
+    background-color: white;
+    margin: .5rem;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px 0 grey;
+}
+
+
+.card:hover {
+    background-color: #6DA3FA; 
+}
+
+
+.card img {
+    display: none;
+}
+
+.card-pool {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subtitle {
+    display: block;
+}
+
+.description {
+    size: 12px;
+    color: grey;
+    margin: 1rem;
+}
+
+.sub-description {
+    color: #228B22;
+    margin: 1rem;
+}
+
+label {
+    border-radius: 10px;
+}
+
+/*======================= Forms =======================*/
+.scheduleForm {
+    margin: 3rem;
+}
+
+.scheduleTitle {
+    margin-left: 3rem;
+}
+
+.scheduleTitleTop {
+    margin-left: 3rem;
+    margin-top: 8rem;
+}
+
+
+
+
+/*=====================================================*/
+/*======================= About =======================*/
+/*=====================================================*/
+
+.about-rule {
+    margin-left: 3rem;
+}
+
+.about-rule h1 {
+    color: #E8C26F;
+    margin: 1rem;
+}
+
+
+
+
+
+/*======================= Adjusting sizes =======================*/
+
+@media (min-width: 598px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #B5986C;
+        padding: .5rem;
+        border-radius: 0;
+        z-index: 5;
+    }
+
+    .card img {
+        display: block;
+        height: 400px;
+        width: 348px;
+        border-radius: 30px 30px 0 0;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 65%;
+        background-color: #B5986C;
+        padding: .7rem;
+        border-radius: 0 0 25px 0;
+        z-index: 5;
+    }
+
+
+    .menu-functionality p {
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    
+    div .menu-item {
+        width: 100%;
+        margin: 0 1rem 0 1rem;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 65%;
+        background-color: #B5986C;
+        padding: .7rem;
+        border-radius: 0 0 50px 0;
+        z-index: 5;
+    }
+    
+}
